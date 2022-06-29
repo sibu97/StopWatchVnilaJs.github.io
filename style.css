@@ -1,0 +1,48 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: linear-gradient(to right, #544a7d,#ffd452);
+    overflow: hidden;
+}
+.container{
+    margin: 50px auto;
+    text-align: center;
+   /* From https://css.glass */
+background: rgba(255, 255, 255, 0.1);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+box-shadow: 5px 10px 18px orange ;
+width: 600px;
+  height: 500px;
+  
+
+}
+h1{
+    font-size: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffff;
+}
+#time{
+    font-size: 5em;
+    color: #ffff;
+}
+button{
+    border: none;
+    padding: 18px 10px;
+    font-size: 1.5em;
+    width: 120px;
+    margin: 10px;
+    border-radius: 15px;
+    color: #AA076B;
+    font-weight: bold;
+}
+button:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color: #ffff;
+    transition: 0.4s;
+    border: none;
+}
